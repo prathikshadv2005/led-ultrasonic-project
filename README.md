@@ -1,15 +1,24 @@
-# LED Ultrasonic Project
+# LED Control using Ultrasonic Sensor (HC-SR04) and Raspberry Pi 4
 
-This project uses a Raspberry Pi 4 and an HC-SR04 ultrasonic sensor to measure distance and control an LED.  
-The LED lights up when an object is detected within 5 cm.
+## 📌 Overview
 
-## Setup
+This project controls an LED using an HC-SR04 ultrasonic sensor connected to Raspberry Pi 4.
 
-- Connect the sensor and LED to Raspberry Pi GPIO pins.
-- Run the Python script `led_ultrasonic.py`.
+## 🛠 Components Used
 
-## Usage
+* Raspberry Pi 4 Model B
+* HC-SR04 Ultrasonic Sensor
+* LED
+* 220Ω Resistor
+* 1kΩ and 2kΩ resistors (Voltage Divider)
+* Breadboard & Jumper Wires
 
-```bash
-python3 led_ultrasonic.py# led-ultrasonic-project
-Raspberry Pi project to control an LED using HC-SR04 ultrasonic sensor based on object distance.
+## 💡 Working Principle
+
+The ultrasonic sensor measures the distance between an object and the sensor.
+If the distance is **less than 5 cm**, the **LED turns ON**.
+If the distance is **greater than 5 cm**, the **LED turns OFF**.
+
+## 👩‍💻 Author
+
+Prathiksha D V
