@@ -38,8 +38,3 @@ This reduces **5V to ~3.3V** and protects the Raspberry Pi.
 * When the **distance is less than 5 cm → LED turns ON**
 * When the **distance is greater than 5 cm → LED turns OFF**
 
----
-
-## 📷 Circuit Diagram
-
-<img width="1536" height="803" alt="image" src="PASTE_YOUR_LED_ULTRASONIC_CIRCUIT_IMAGE_LINK_HERE" />
